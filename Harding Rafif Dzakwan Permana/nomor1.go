@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x, fx float64
+
+	fmt.Print("Masukkan x: ")
+	fmt.Scan(&x)
+
+	fx = 2/(x+5) + 5
+
+	fmt.Printf("Keluaran fx: %.3f\n", fx)
+}
